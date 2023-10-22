@@ -1,0 +1,151 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Joti+One&family=Lobster&family=Montserrat:wght@100&family=Noto+Sans:wght@700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Roboto:wght@300;400&display=swap');
+
+h1{
+  text-align: center;
+}
+.main-card{
+  border: 2px solid black;
+  height: 600px;
+  width: 1200px;
+  border-radius: 5px;
+  /* background-color: blue; */
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  justify-items:center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(2, 2, 194), rgb(29, 134, 255));
+  
+}
+.sub-card{
+ display: flex;
+ flex-direction: row;
+ /* color: darkgrey; */
+ /* border: 2px solid black; */
+ 
+}
+
+.box{
+  border: 2px solid darkblue;
+  height: 540px;
+  width: 340px;
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  justify-content:center;
+  align-content: center;
+  /* text-align: center; */
+  display: flex;
+}
+p{
+  padding: 2px;
+  margin: 2px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: darkgray;
+  font-weight:bold;
+}
+.price{
+  padding: 2px;
+  margin: 2px;
+  font-weight: bolder;
+  font-size: 32px;
+  color: black;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.line{
+  padding: 0px;
+  margin: 0px;
+}
+
+.line-text{
+  justify-content: left;
+  align-content: left;
+  text-align: left;
+  font-family:sans-serif;
+  font-size: 18px;
+  color: black;
+  
+}
+.material-symbols-outlined{
+  /* color: black; */
+  margin: 1px;
+  padding: 3px;
+  display:flex;
+
+}
+.line-text-close{
+  justify-content: left;
+  align-content: left;
+  text-align: left;
+  font-family:sans-serif;
+  font-size: 18px;
+  color: darkgrey;
+}
+
+.button{
+  background-color: rgb(0, 119, 255);
+  color: whitesmoke;
+  height:inherit;
+  width: 300px;
+  margin: 20px;
+  font-size: medium;
+  border-radius: 60px;
+}
+.button3{
+  background-color: rgb(5, 40, 243);
+  color: whitesmoke;
+  height:inherit;
+  width: 300px;
+  margin: 20px;
+  font-size: medium;
+  border-radius: 60px;
+}
